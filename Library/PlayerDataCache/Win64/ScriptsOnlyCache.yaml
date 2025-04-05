@@ -1,19 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioOcclusion
+    - AudioSystem
     - BedTrigger
-    - Doors
+    - Doors_new
     - FPSController
-    - Fireplace_playback
-    - Footsteps
-    - Health
+    - Fireplace_playback_new
+    - Footsteps_new
+    - Health_new
     - Interactor
-    - MusicSwitch
-    - Outside_foot_switch
-    - Outside_snapshot
-    - RoomAmbient
-    - Rooms
-    - VCA
+    - MusicSwitch_new
+    - Outside_foot_switch_new
+    - Rooms_new
+    - SpellCast
+    - VCA_new
     FMODUnity:
     - FMODUnity.PlatformAndroid
     - FMODUnity.PlatformAppleTV
@@ -165,77 +166,79 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1676}
+      Script: {instanceID: 1882}
     - Class: 114
-      Script: {instanceID: 2212}
+      Script: {instanceID: 2214}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2718}
-    - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2720}
     - Class: 114
       Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 3114}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3176}
+      Script: {instanceID: 3056}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3584}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3716}
+      Script: {instanceID: 3724}
     - Class: 114
-      Script: {instanceID: 4088}
+      Script: {instanceID: 4068}
     - Class: 114
-      Script: {instanceID: 4094}
+      Script: {instanceID: 4100}
     - Class: 114
-      Script: {instanceID: 4200}
+      Script: {instanceID: 4106}
     - Class: 114
-      Script: {instanceID: 4282}
+      Script: {instanceID: 4212}
     - Class: 114
-      Script: {instanceID: 4376}
+      Script: {instanceID: 4294}
     - Class: 114
-      Script: {instanceID: 4472}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 5046}
+      Script: {instanceID: 4484}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 5058}
     - Class: 114
-      Script: {instanceID: 5200}
+      Script: {instanceID: 5162}
     - Class: 114
-      Script: {instanceID: 5232}
+      Script: {instanceID: 5212}
     - Class: 114
-      Script: {instanceID: 5408}
+      Script: {instanceID: 5420}
     - Class: 114
-      Script: {instanceID: 5438}
+      Script: {instanceID: 5626}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5778}
     - Class: 114
-      Script: {instanceID: 5766}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 5908}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 5928}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 7048}
+      Script: {instanceID: 5984}
     - Class: 114
-      Script: {instanceID: 7260}
+      Script: {instanceID: 6106}
     - Class: 114
-      Script: {instanceID: 7482}
+      Script: {instanceID: 6114}
     - Class: 114
-      Script: {instanceID: 7716}
+      Script: {instanceID: 6478}
     - Class: 114
-      Script: {instanceID: 7884}
+      Script: {instanceID: 7072}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 7740}
     - Class: 114
-      Script: {instanceID: 8020}
+      Script: {instanceID: 7908}
     - Class: 114
-      Script: {instanceID: 8024}
+      Script: {instanceID: 7968}
     - Class: 114
-      Script: {instanceID: 8110}
+      Script: {instanceID: 8044}
+    - Class: 114
+      Script: {instanceID: 8048}
+    - Class: 114
+      Script: {instanceID: 8134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -365,10 +368,10 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
-      Hash: 35cdcb9b6f38c8d7af4f3115fdb46c33
+      Hash: 34ec53609bf700c472083c1789e4ad64
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: FMOD_Commands
+    className: SpellCast
   - hash:
       serializedVersion: 2
       Hash: 07eadb85fd28c8f0963bccff6eebc9d9
@@ -411,6 +414,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6b337b020aba724151e6748f7fd10038
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Footsteps_new
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
@@ -557,6 +566,12 @@ ScriptsOnlyBuild:
     className: Door
   - hash:
       serializedVersion: 2
+      Hash: 18033b6d58873f86bb086fe63fcae948
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioSystem
+  - hash:
+      serializedVersion: 2
       Hash: 1d830bc5cfaaf24301dffea2877f4bea
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -647,6 +662,12 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ab0dcb495dd3e605f3f00ecf8f25ed4d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MusicSwitch_new
+  - hash:
+      serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -707,6 +728,12 @@ ScriptsOnlyBuild:
     className: PlatformAndroid
   - hash:
       serializedVersion: 2
+      Hash: 9461c1c9f5b3dad520e5634e93f4c453
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fire_start
+  - hash:
+      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -753,6 +780,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: c8a746abac4448a6b21ee89ab6b213fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Doors_new
   - hash:
       serializedVersion: 2
       Hash: 4718916586b3818eb69bf65df61f0f3a
@@ -1109,6 +1142,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: b3ce6aaf97fa7d0544737c0819a91599
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Outside_foot_switch_new
+  - hash:
+      serializedVersion: 2
       Hash: 4166580c620718548959a77fa7b43fc1
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1133,6 +1172,12 @@ ScriptsOnlyBuild:
     className: StudioBankLoader
   - hash:
       serializedVersion: 2
+      Hash: 3fba275c0c1f88dac14a806f4b66a074
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fireplace_playback_new
+  - hash:
+      serializedVersion: 2
       Hash: 76766de19eb62bfa5445a564b05721af
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1143,6 +1188,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: cc262cc3515fcc0dfbef1ca819b6a9a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 1afe28d7bf3f7b8e45185a6bfc6e8797
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Rooms_new
+  - hash:
+      serializedVersion: 2
+      Hash: 70f1f6d5a05fccc923684edd2fba3201
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Health_new
   - hash:
       serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
@@ -1197,6 +1260,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 86bf99ab56fad658664c41d4eb88e590
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VCA_new
   - hash:
       serializedVersion: 2
       Hash: 7fdd3ee28e9042c3ec83463d0bb3b230
@@ -1542,4 +1611,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity
-  playerPath: C:/Unity 2024/Audio/Build/Audio.exe
+  playerPath: C:/Unity 2024/GitHub/Tavern_Unity/Build/Audio.exe
